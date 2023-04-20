@@ -61,21 +61,18 @@ div.row{
 }
 
 div.card{
-    width: calc( 100%  / 3 - 1.5rem);
+    width: 100%;
     background-color: rgb(181, 221, 225);
     height: 250px;
     border-radius: 20px;
 }
 
-div.card-big{
-    width: calc( (100% / 3) * 2 );
-}
+
 
 /* !SECTION TWO */
 
 section.two{
     background-color: rgb(151, 146, 228);
-    
     margin-top: 4rem;
 }
 
@@ -84,7 +81,7 @@ div.container{
 }
 
 div.col{
-    width: 44%;
+    width: 100%;
     background-color: red;
     height: 400px;
     border: 2px black solid;
@@ -164,4 +161,32 @@ footer{
 div.end{
     text-align: center;
     padding-top: 3rem;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 480px){
+    div.card{
+        width: calc( 100%  / 3 - 1.5rem);
+        background-color: rgb(181, 221, 225);
+        height: 250px;
+        border-radius: 20px;
+    }
+    
+    div.card-big{
+        width: calc( (100% / 3) * 2 );
+    }
+    
+    div.container.flex.flex-wrap{
+        flex-wrap: wrap;
+    }
+
+    div.col{
+        width: 44%;
+        background-color: red;
+        height: 400px;
+        border: 2px black solid;
+        margin: 2rem 0;
+    }
+
 }

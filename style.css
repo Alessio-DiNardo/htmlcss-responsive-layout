@@ -13,6 +13,9 @@ li{
 .flex{
     display: flex;
     flex-direction: row;
+}
+
+.text-aline{
     justify-content: center;
     align-items: center;
 }
@@ -48,6 +51,57 @@ nav{
 
 /* !SECTION ONE */
 
+span.blu{
+    color: rgb(0, 132, 253);
+}
+
+span.simbol{
+    text-align: center;
+}
+
+.fa-solid.fa-file-code{
+    color: rgb(0, 132, 253);
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+
+.fa-solid.fa-compass-drafting{
+    color: rgb(0, 132, 253);
+    font-size: 4rem;
+    margin-top: 1rem;
+    
+}
+
+.fa-solid.fa-laptop-code{
+    color: rgb(0, 132, 253);
+    font-size: 4rem;
+    margin-top: 1rem;
+
+}
+
+.fa-sharp.fa-solid.fa-bullhorn{
+    color: rgb(0, 132, 253);
+    font-size: 4rem;
+    margin-top: 1rem;
+    
+}
+
+h4{
+    margin-bottom: 1rem;
+}
+
+h5{
+    color: rgb(0, 132, 253);
+    font-size: 1rem;
+    margin-top: 1rem;
+    
+}
+
+p{
+    line-height: 1.6rem;
+    margin-top: 1rem;
+    text-align: center;
+}
 
 section.one{
     max-width: 1030px;
@@ -67,6 +121,26 @@ div.card{
     border-radius: 20px;
 }
 
+div.apple{
+    width: 50%;
+    padding: 1rem;
+
+}
+
+div.phone{
+    width: 50%;
+    height: 100%;
+    background-image: url("./img/phone.png");
+    background-size: cover;
+    
+}
+
+button.button.button-blue{
+    background-color: rgb(0, 132, 253);
+    color: white;
+    padding: 0.5rem 2rem;
+    margin-top: 1.5rem;
+}
 
 
 /* !SECTION TWO */
@@ -202,7 +276,8 @@ div.end{
 
 /*!SECTION FOUR  */
     div.card.card-white{
-        width: 35%;
+        width: 45%;
+
 }
 
 

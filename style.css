@@ -17,6 +17,10 @@ li{
     align-items: center;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 /* HEADER */
 
 header{
@@ -38,4 +42,126 @@ nav{
 
 .button-white{
     background-color: white;
+}
+
+/* ?MAIN */
+
+/* !SECTION ONE */
+
+
+section.one{
+    max-width: 1030px;
+    margin: 0 auto;
+}
+
+div.row{
+    width: 100%;
+    margin-top: 3rem;
+    gap: 1.5rem;
+}
+
+div.card{
+    width: calc( 100%  / 3 - 1.5rem);
+    background-color: rgb(181, 221, 225);
+    height: 250px;
+    border-radius: 20px;
+}
+
+div.card-big{
+    width: calc( (100% / 3) * 2 );
+}
+
+/* !SECTION TWO */
+
+section.two{
+    background-color: rgb(151, 146, 228);
+    
+    margin-top: 4rem;
+}
+
+div.container{
+    max-width: 1030px;
+}
+
+div.col{
+    width: 44%;
+    background-color: red;
+    height: 400px;
+    border: 2px black solid;
+    margin: 2rem 0;
+}
+
+/* !SECTION THREE */
+
+div.text{
+    text-align: center;
+}
+
+h3{
+    margin: 2rem 0;
+}
+
+span.violet{
+    margin-bottom: 2rem;
+    color: rgb(151, 146, 228);
+    font-size: 2.3rem;
+}
+
+div.elenc{
+    width: 100%;
+    background-color: rgb(151, 146, 228);
+    height: 80px;
+    border-radius: 5rem;
+    margin: 1.6rem 0 ;
+    
+}
+
+/* !SECTION FOUR */
+
+section.four{
+    background-color:  rgb(151, 146, 228);
+}
+
+h2{
+    color: white;
+    padding: 2rem 0 ; 
+}
+
+/* !SECTION FIVE */
+
+div.square{
+    width: 65%;
+    height: 200px;
+    border: 2px black solid;
+    margin-top: 2rem;
+}
+
+div.square-img{
+    width: 35%;
+    height: 200px;
+    border: 2px black solid;
+}
+
+/*!SECTION SIX*/
+
+section.six{
+    background-color:  rgb(151, 146, 228);
+}
+
+span.gold{
+    color: rgb(253, 193, 95)
+}
+
+
+/* ?FOOTER */
+
+footer{
+    background-color: rgb(51, 51, 51);
+    height: 150px;
+    color: white;
+}
+
+div.end{
+    text-align: center;
+    padding-top: 3rem;
 }

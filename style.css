@@ -53,6 +53,7 @@ nav{
 
 span.blu{
     color: rgb(0, 132, 253);
+    font-size: 1.2rem;
 }
 
 span.simbol{
@@ -86,8 +87,10 @@ span.simbol{
     
 }
 
-div.text.p.grey{
-    color: rgb(90, 110, 127)
+div.grey{
+    color: rgb(90, 110, 127);
+    font-size: 1.2rem;
+    padding-top: 0.7rem
 }
 
 h4{
@@ -96,7 +99,7 @@ h4{
 
 h5{
     color: rgb(0, 132, 253);
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 1rem;
     
 }

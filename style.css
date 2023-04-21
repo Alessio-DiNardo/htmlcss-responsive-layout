@@ -176,6 +176,11 @@ div.paragraph h2{
     color: white;
 }
 
+div.testimonial{
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+}
+
 p.white{
     color: white;
     text-align: start;
@@ -209,6 +214,15 @@ div.text{
 
 h3{
     margin: 2rem 0;
+}
+
+h1.testimonial{
+    color: black;
+    padding: 2rem 0;
+}
+
+p.black{
+    color: black;
 }
 
 span.violet{
@@ -297,7 +311,7 @@ div.card.card-white{
 /* !SECTION FIVE */
 
 section.five{
-    height: 500px;
+    height: 660px;
 }
 
 div.square h2{
@@ -357,7 +371,7 @@ div.text h2{
     padding-top: 0.3rem;
 }
 
-div.text h3{
+div.text h3 {
     color: white;
     padding-top: 2rem;
 }
@@ -475,13 +489,13 @@ div.square-img{
     }
 
     div.square{
-    width: 50%;
+    width: 40%;
     height: 200px;
     margin-top: 2rem;
 }
 
     div.square-img{
-    width: 50%;
+    width: 20%;
     height: 200px;
     
 }

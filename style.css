@@ -32,7 +32,7 @@ header{
 }
 
 nav{
-    max-width: 1600px;
+    max-width: 1516px;
     margin: 0 auto;
     
 }
@@ -148,6 +148,7 @@ button.button.button-blue{
 section.two{
     background-color: rgb(151, 146, 228);
     margin-top: 4rem;
+    padding-bottom: 9rem;
 }
 
 div.container{
@@ -156,10 +157,44 @@ div.container{
 
 div.col{
     width: 100%;
-    background-color: red;
     height: 400px;
-    border: 2px black solid;
     margin: 2rem 0;
+}
+
+div.img img{
+    width: 237px;
+    height: 200px;
+}
+
+div.box img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+p.white{
+    color: white;
+    text-align: start;
+}
+
+div.box h6{
+    font-size: 1.3rem;
+}
+
+div.box{
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 3rem;
+    padding-top: 2rem;
+    margin-top: 5rem;
+}
+
+.fa-solid.fa-arrow-down{
+    background-color: rgb(151, 146, 228);
+    padding: 0.5rem;
+    border-radius: 6rem;
+    margin: 1rem 0 ;
 }
 
 /* !SECTION THREE */
@@ -266,9 +301,8 @@ div.end{
 
     div.col{
         width: 100%;
-        background-color: red;
         height: 400px;
-        border: 2px black solid;
+        
         margin: 2rem 0;
     }
 
@@ -332,10 +366,9 @@ div.square-img{
         justify-content: center;
     }
     div.col{
-        width: 44%;
-        background-color: red;
+        width: 34%;
         height: 400px;
-        border: 2px black solid;
+        
         margin: 2rem 0;;
     }
 /* !SECTION FOUR */
